@@ -14,3 +14,4 @@ Feature: Post method
     * method post
     * status 200
     * print response
+    * match response.objectData.employeeId == 109070
